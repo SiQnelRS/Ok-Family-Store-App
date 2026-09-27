@@ -1,0 +1,21 @@
+{
+  "name": "ok-family-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo para Ok Family Store — Liquidaciones y Devoluciones de EE. UU.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "db:generate": "npm run --workspace=@ok-family/database generate",
+    "db:migrate": "npm run --workspace=@ok-family/database migrate",
+    "db:push": "npm run --workspace=@ok-family/database push",
+    "db:studio": "npm run --workspace=@ok-family/database studio",
+    "build": "npm run --workspaces --if-present build",
+    "lint": "npm run --workspaces --if-present lint"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,48 @@
+export enum RolUsuario {
+  CUSTOMER = 'CUSTOMER',
+  ADMIN = 'ADMIN',
+}
+
+export enum ProveedorAuth {
+  LOCAL = 'LOCAL',
+  GOOGLE = 'GOOGLE',
+  FACEBOOK = 'FACEBOOK',
+}
+
+export enum TipoProducto {
+  PRODUCTO = 'PRODUCTO',
+  LOTE = 'LOTE',
+}
+
+export enum EstadoProducto {
+  DISPONIBLE = 'DISPONIBLE',
+  RESERVADO = 'RESERVADO',
+  VENDIDO = 'VENDIDO',
+  OCULTO = 'OCULTO',
+}
+
+export enum EstadoReserva {
+  ACTIVA = 'ACTIVA',
+  CONFIRMADA_PAGADA = 'CONFIRMADA_PAGADA',
+  EXPIRADA = 'EXPIRADA',
+  CANCELADA = 'CANCELADA',
+}
+
+export enum EstadoPedido {
+  PENDIENTE_PAGO = 'PENDIENTE_PAGO',
+  PAGADO = 'PAGADO',
+  PREPARANDO = 'PREPARANDO',
+  LISTO_PARA_ENVIO = 'LISTO_PARA_ENVIO',
+  ENVIADO = 'ENVIADO',
+  ENTREGADO = 'ENTREGADO',
+  CANCELADO = 'CANCELADO',
+  REEMBOLSADO = 'REEMBOLSADO',
+}
+
+export enum EstadoPago {
+  REQUIERE_ACCION = 'REQUIERE_ACCION',
+  PROCESANDO = 'PROCESANDO',
+  APROBADO = 'APROBADO',
+  FALLIDO = 'FALLIDO',
+  CANCELADO = 'CANCELADO',
+}
