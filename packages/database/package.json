@@ -9,13 +9,18 @@
     "migrate": "npx prisma migrate dev",
     "push": "npx prisma db push",
     "studio": "npx prisma studio",
+    "seed": "npx prisma db seed",
     "build": "tsc"
+  },
+  "prisma": {
+    "seed": "npx tsx prisma/seed.ts"
   },
   "dependencies": {
     "@prisma/client": "^5.14.0"
   },
   "devDependencies": {
     "prisma": "^5.14.0",
+    "tsx": "^4.10.5",
     "typescript": "^5.4.5"
   }
 }

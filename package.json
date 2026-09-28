@@ -12,6 +12,7 @@
     "db:migrate": "npm run --workspace=@ok-family/database migrate",
     "db:push": "npm run --workspace=@ok-family/database push",
     "db:studio": "npm run --workspace=@ok-family/database studio",
+    "db:seed": "npm run --workspace=@ok-family/database seed",
     "build": "npm run --workspaces --if-present build",
     "lint": "npm run --workspaces --if-present lint"
   },
