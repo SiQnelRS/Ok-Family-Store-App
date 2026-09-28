@@ -13,6 +13,11 @@
     "db:push": "npm run --workspace=@ok-family/database push",
     "db:studio": "npm run --workspace=@ok-family/database studio",
     "db:seed": "npm run --workspace=@ok-family/database seed",
+    "dev:frontend": "npm run --workspace=@ok-family/frontend dev",
+    "dev:gateway": "npm run --workspace=@ok-family/api-gateway dev",
+    "dev:auth": "npm run --workspace=@ok-family/auth-service dev",
+    "dev:catalog": "npm run --workspace=@ok-family/catalog-service dev",
+    "dev:commerce": "npm run --workspace=@ok-family/commerce-service dev",
     "build": "npm run --workspaces --if-present build",
     "lint": "npm run --workspaces --if-present lint"
   },
